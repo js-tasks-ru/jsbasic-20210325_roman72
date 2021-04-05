@@ -1,3 +1,10 @@
 function checkSpam(str) {
-  // ваш код...
+	spam = str.toLowerCase()
+	if(spam.match(/1xbet/)){
+		return true
+	} if(spam.match(/xxx/)){
+		return true
+	} else {
+		return false
+	}
 }
