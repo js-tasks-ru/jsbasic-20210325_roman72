@@ -1,3 +1,5 @@
 function namify(users) {
-  // ваш код...
+	let allNames = users.map(function(userObj) {return `${userObj.name}`;});
+	return allNames
 }
+
